@@ -1,11 +1,13 @@
 [build]
-  command = "npm run build"
+  command = "npm install && npm run build"
   publish = "dist"
-  functions = "functions"  # Opcional, solo si usas Netlify Functions
+  functions = "src/functions"  # Opcional, solo si usas Netlify Functions
 
 [dev]
-  command = "npm run dev"  # Configuración para desarrollo local
-  port = 3000              # Puerto que usa tu aplicación
+  command = "npm run dev"
+  port = 3000
 
+# Configuración específica para Astro
 [context.production.environment]
-  NODE_VERSION = "18"      # Usa la misma versión que localmente
+  NODE_VERSION = "18"
+  ASTRO_BUILD_DIR = "dist"
