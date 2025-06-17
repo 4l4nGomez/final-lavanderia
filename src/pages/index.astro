@@ -11,79 +11,53 @@ import Navbar from '../components/Navbar.astro';
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Lavandería Lavo Plus en Puebla: servicio rápido, confiable y entrega a domicilio para cuidar tu ropa con la mejor calidad." />
 
-  <!-- Palabras clave relevantes -->
+  <!-- PALABRAS CLAVE RELEVANTES -->
   <meta name="keywords" content="lavandería, tintorería, lavado, planchado, entrega a domicilio, Puebla, ropa limpia" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Autor de la página -->
+  <!-- AUTOR DE LA PÁGINA -->
   <meta name="author" content="Lavandería Lavo Plus" />
-
-  <!-- Meta para robots -->
+  <!-- META PARA ROBOTS -->
   <meta name="robots" content="index, follow" />
-
-  <!-- Open Graph (para cuando compartes en redes sociales) -->
+  <!-- OPEN GRAPH (REDES SOCIALES) -->
   <meta property="og:title" content="Lavandería Lavo Plus - Limpieza y Tintorería en Puebla" />
   <meta property="og:description" content="Servicio rápido y confiable de lavandería con entrega a domicilio en Puebla." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://lavanderia-lavoplus.netlify.app/" />
-
-
-  <!-- Twitter Card (para Twitter) -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Lavandería Lavo Plus - Limpieza y Tintorería en Puebla" />
-  <meta name="twitter:description" content="Servicio rápido y confiable de lavandería con entrega a domicilio en Puebla." />
-  <meta name="twitter:image" content="https://tu-dominio.com/twitter-image.jpg" />
   
     <title>Lavandería LAVO PLUS
     </title>
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-    
-	</head>
-  
+</head>
+  <body class="font-sans" "bg-gray-100 text-gray-800 font-sans">
 
-		<body class="font-sans" "bg-gray-100 text-gray-800 font-sans">
+  <!--MENU DE INCIO-->
       <Navbar/>
       
-    
-    <section id="carrusel"
-  class="py-20 px-6 bg-gradient-to-r from-blue-100 to-blue-50 text-center rounded-2xl shadow-lg"
-  data-aos="fade-down"
-  data-aos-delay="100"
->
-  <h2
-    class="text-4xl md:text-4.5xl font-extrabold text-blue-900 mb-6"
-    data-aos="fade-up"
-    data-aos-delay="200"
-  >
-    ¿Buscas una lavandería y tintorería en Puebla?
-  </h2>
+  <!--PRIMERA SECCIÓN DE BIENVENIDA-->
+  <section id="carrusel"
+      class="py-20 px-6 bg-gradient-to-r from-blue-100 to-blue-50 text-center rounded-2xl shadow-lg"
+      data-aos="fade-down"
+      data-aos-delay="100">
+    <h2 class="text-4xl md:text-4.5xl font-extrabold text-blue-900 mb-6"data-aos="fade-up" data-aos-delay="200">
+      ¿Buscas una lavandería y tintorería en Puebla? </h2>
 
-  <p
-    class="text-xl md:text-1xl text-gray-700 max-w-3xl mx-auto mb-8"
-    data-aos="fade-up"
-    data-aos-delay="400"
-  >
-    En <strong>Lavo Plus</strong> cuidamos tu ropa como si fuera nuestra. ¡Rápido y confiable!
-  </p>
+    <p class="text-xl md:text-1xl text-gray-700 max-w-3xl mx-auto mb-8" data-aos="fade-up" data-aos-delay="400"> 
+    En <strong>Lavo Plus</strong> cuidamos tu ropa como si fuera nuestra. ¡Rápido y confiable!</p>
 
-  <a
-    href="https://wa.me/522228479246"
-    target="_blank"
-    class="inline-block bg-green-500 hover:bg-green-600 text-white text-lg md:text-xl font-semibold py-4 px-8 rounded-full transition-all duration-300 shadow-lg"
+    <a href="https://wa.me/522228479246" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white text-lg md:text-xl font-semibold py-4 px-8 rounded-full transition-all duration-300 shadow-lg"
     data-aos="zoom-in"
-    data-aos-delay="600"
-  >
-    Más información
-  </a>
-</section>
+    data-aos-delay="600">
+    Más información </a>
+  </section>
 
 
 
-
-<section id="quienes-somos" class="bg-white py-12 md:py-16 px-6 md:px-8" data-aos="fade-up" data-aos-duration="800">
+    <!--SERVICIOS-->
+  <section id="quienes-somos" class="bg-white py-12 md:py-16 px-6 md:px-8" data-aos="fade-up" data-aos-duration="800">
   <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
     
-    <!-- Imagen animada -->
+    <!-- IMAGEN ANIMADA -->
     <img
       src="/quienes-somos.jpg"
       alt="Equipo de Lavandería Express"
@@ -92,7 +66,7 @@ import Navbar from '../components/Navbar.astro';
       data-aos="zoom-in-right"
       data-aos-delay="100">
 
-    <!-- Contenido textual animado -->
+    <!-- CONTENIDO TEXTUAL ANIMADO -->
     <div data-aos="fade-left" data-aos-delay="200">
       <h2 class="text-3xl md:text-4xl font-bold text-blue-800 mb-4" data-aos="fade-up" data-aos-delay="300">
         ¿Quiénes somos?
@@ -102,7 +76,7 @@ import Navbar from '../components/Navbar.astro';
         Somos un equipo apasionado por brindar un servicio de alta calidad a nuestros clientes.
       </p>
 
-      <!-- Íconos animados -->
+      <!-- ÍCONOS ANIMADOS -->
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
         <div class="flex flex-col items-center" data-aos="flip-left" data-aos-delay="500">
           <svg class="w-10 h-10 text-blue-600 mb-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -126,76 +100,72 @@ import Navbar from '../components/Navbar.astro';
       </div>
     </div>
   </div>
-</section>
+    </section>
+      <section id="servicios" class="py-20 px-6 bg-blue-900" data-aos="fade-up" data-aos-duration="800">
+        <div class="max-w-6xl mx-auto text-center">
+          <h2 class="text-5xl font-extrabold text-white mb-16 tracking-wide" data-aos="fade-up" data-aos-delay="100">
+            Nuestros Servicios
+          </h2>
+            <p class="text-xl text-blue-300 mb-16 max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                Conoce nuestros servicios profesionales diseñados para cuidar y conservar tu ropa con la mejor calidad.
+            </p>
 
-
-
- <section id="servicios" class="py-20 px-6 bg-blue-900" data-aos="fade-up" data-aos-duration="800">
-  <div class="max-w-6xl mx-auto text-center">
-    <h2 class="text-5xl font-extrabold text-white mb-16 tracking-wide" data-aos="fade-up" data-aos-delay="100">
-      Nuestros Servicios
-    </h2>
-    <p class="text-xl text-blue-300 mb-16 max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="200">
-      Conoce nuestros servicios profesionales diseñados para cuidar y conservar tu ropa con la mejor calidad.
-    </p>
-
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
-      <!-- servicio 1 -->
-      <div class="bg-blue-800 rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="300">
-        <div class="bg-blue-700 rounded-full p-5 mb-6">
-          <!-- Icono -->
-          <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+          <!-- SERVICIO 1 -->
+        <div class="bg-blue-800 rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="300">
+          <div class="bg-blue-700 rounded-full p-5 mb-6">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor"/>
-          </svg>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-semibold text-white mb-3">LAVADO GENERAL</h3>
+            <p class="text-blue-300 text-base">
+              Servicio de lavado de ropa con cuidado especial para diferentes tipos de telas.
+            </p>
         </div>
-        <h3 class="text-2xl font-semibold text-white mb-3">LAVADO GENERAL</h3>
-        <p class="text-blue-300 text-base">
-          Servicio de lavado de ropa con cuidado especial para diferentes tipos de telas.
-        </p>
-      </div>
 
-      <!-- servicio 2 -->
-      <div class="bg-blue-800 rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="400">
+          <!-- SERVICIO 2 -->
+        <div class="bg-blue-800 rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="400">
         <div class="bg-blue-700 rounded-full p-5 mb-6">
-          <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path d="M4 10h16v4H4z"/><path d="M4 14v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/>
-          </svg>
+            </svg>
         </div>
-        <h3 class="text-2xl font-semibold text-white mb-3">LAVADO EXPRÉS</h3>
-        <p class="text-blue-300 text-base">
-          Lavado rápido para prendas que necesitas listas en poco tiempo, ideal para emergencias o ropa urgente.
-        </p>
-      </div>
+          <h3 class="text-2xl font-semibold text-white mb-3">LAVADO EXPRÉS</h3>
+            <p class="text-blue-300 text-base">
+              Lavado rápido para prendas que necesitas listas en poco tiempo, ideal para emergencias o ropa urgente.
+            </p>
+        </div>
 
-      <!-- servicio 3 -->
-      <div class="bg-blue-800 rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="500">
+          <!--SERVICIO 3 -->
+        <div class="bg-blue-800 rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="500">
         <div class="bg-blue-700 rounded-full p-5 mb-6">
-          <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path d="M6 3h12l2 4v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7l2-4z"/>
             <path d="M3 7h18"/>
-          </svg>
+            </svg>
         </div>
-        <h3 class="text-2xl font-semibold text-white mb-3">TINTORERÍA</h3>
-        <p class="text-blue-300 text-base">
-          Limpieza en seco para prendas delicadas o que requieren un tratamiento especial, como trajes, vestidos de fiesta, y ropa que no puede mojarse.
-        </p>
-      </div>
+          <h3 class="text-2xl font-semibold text-white mb-3">TINTORERÍA</h3>
+            <p class="text-blue-300 text-base">
+            Limpieza en seco para prendas delicadas o que requieren un tratamiento especial, como trajes, vestidos de fiesta, y ropa que no puede mojarse.
+            </p>
+        </div>
 
-      <!-- servicio 4 -->
-      <div class="bg-blue-800 rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="600">
+        <!--SERVICIO 4 -->
+        <div class="bg-blue-800 rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="600">
         <div class="bg-blue-700 rounded-full p-5 mb-6">
-          <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 0 0 1 1h3m10-11l2 2m-2-2v10a1 1 0 0 1-1 1h-3"/>
-          </svg>
+            </svg>
         </div>
-        <h3 class="text-2xl font-semibold text-white mb-3">ADICIONALES</h3>
-        <p class="text-blue-300 text-base">
-          Planchado, doblado, y entrega a domicilio para mayor comodidad.
-        </p>
-      </div>
+          <h3 class="text-2xl font-semibold text-white mb-3">ADICIONALES</h3>
+          <p class="text-blue-300 text-base">
+            Planchado, doblado, y entrega a domicilio para mayor comodidad.
+          </p>
+        </div>
     </div>
 
-    <!-- BOTÓN WHATSAPP -->
+    <!--BOTÓN WHATSAPP-->
     <div class="mt-20" data-aos="fade-up" data-aos-delay="800">
       <a href="https://wa.me/522228479246" target="_blank" 
          class="inline-flex items-center gap-3 bg-green-500 text-white px-10 py-4 rounded-full shadow-lg hover:bg-green-600 transition mx-auto"
@@ -203,9 +173,11 @@ import Navbar from '../components/Navbar.astro';
         <span class="text-lg font-medium">Contáctanos por WhatsApp</span>
       </a>
     </div>
-  </div>
-</section>
+    </div>
+  </section>
 
+
+    <!--PROMOCIONES-->
     <section id="promociones" class="py-20 px-6 bg-yellow-50" data-aos="fade-up" data-aos-duration="800">
   <div class="max-w-6xl mx-auto text-center">
     <h2 class="text-5xl font-extrabold text-yellow-800 mb-8 tracking-wide" data-aos="fade-up" data-aos-delay="100">
@@ -216,21 +188,21 @@ import Navbar from '../components/Navbar.astro';
     </p>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-      <!-- Promo 1 -->
+      <!-- PROMO 1 -->
       <div class="bg-white rounded-xl shadow-lg p-8 hover:scale-105 transition-transform duration-300 border border-yellow-300" data-aos="zoom-in" data-aos-delay="300">
         <h3 class="text-2xl font-bold text-yellow-800 mb-3">2x1 en Lavado Exprés</h3>
         <p class="text-yellow-700 mb-4">Lleva 2 cargas por el precio de 1 en servicios exprés. Válido solo los martes.</p>
         <span class="inline-block bg-yellow-200 text-yellow-900 text-sm px-4 py-2 rounded-full font-semibold">Válido hasta 30 de junio</span>
       </div>
 
-      <!-- Promo 2 -->
+      <!-- PROMO 2 -->
       <div class="bg-white rounded-xl shadow-lg p-8 hover:scale-105 transition-transform duration-300 border border-yellow-300" data-aos="zoom-in" data-aos-delay="400">
         <h3 class="text-2xl font-bold text-yellow-800 mb-3">10% de Descuento</h3>
         <p class="text-yellow-700 mb-4">En todos nuestros servicios para estudiantes con credencial vigente.</p>
         <span class="inline-block bg-yellow-200 text-yellow-900 text-sm px-4 py-2 rounded-full font-semibold">Todo el mes</span>
       </div>
 
-      <!-- Promo 3 -->
+      <!-- PROMO 3 -->
       <div class="bg-white rounded-xl shadow-lg p-8 hover:scale-105 transition-transform duration-300 border border-yellow-300" data-aos="zoom-in" data-aos-delay="500">
         <h3 class="text-2xl font-bold text-yellow-800 mb-3">Entrega Gratis</h3>
         <p class="text-yellow-700 mb-4">En pedidos mayores a $200 pesos. Aplica en zonas seleccionadas.</p>
@@ -241,6 +213,7 @@ import Navbar from '../components/Navbar.astro';
 </section>
 
 
+   <!-- GALERIA--> 
    <section id="galeria" class="py-12 px-6 max-w-6xl mx-auto" data-aos="fade-up" data-aos-duration="800">
   <div class="text-center mb-10">
   <h2
@@ -308,11 +281,11 @@ import Navbar from '../components/Navbar.astro';
 </script>
 
 
-
+<!-- SECCIÓN DE UBICACION-->
 <section id="ubicacion" class="bg-gradient-to-b from-white to-blue-50 py-20">
   <div class="container mx-auto px-6 sm:px-10 lg:px-20 flex flex-col md:flex-row items-center gap-12">
 
-    <!-- Texto e información -->
+    <!-- TEXTO E INFORMACIÓN -->
     <div
       class="w-full md:w-1/2 bg-white border border-blue-200 rounded-3xl shadow-2xl p-10"
       data-aos="fade-right"
@@ -330,7 +303,7 @@ import Navbar from '../components/Navbar.astro';
         </p>
       </div>
 
-      <!-- Botón -->
+      <!-- BOTÓN -->
       <a
         href="https://maps.app.goo.gl/dnD5AxHN8GYnF2ac6"
         target="_blank"
@@ -346,7 +319,7 @@ import Navbar from '../components/Navbar.astro';
       </a>
     </div>
 
-    <!-- Mapa -->
+    <!-- MAPA -->
     <div class="w-full md:w-1/2 h-[450px]" data-aos="fade-left">
       <iframe
         class="w-full h-full rounded-3xl shadow-xl"
@@ -360,7 +333,7 @@ import Navbar from '../components/Navbar.astro';
 </section>
 
 
-
+      <!-- SECCIÓN DE CONTACTO-->
     <section id="contacto" class="py-16 px-6 bg-gradient-to-br from-green-100 to-white text-center rounded-xl shadow-inner">
   <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-4" data-aos="fade-up">
     ¿Tienes dudas?
@@ -383,7 +356,7 @@ import Navbar from '../components/Navbar.astro';
   </a>
   </section>
 
-    <!-- Sección de Redes Sociales -->
+    <!-- SECCIÓN DE REDES SOCIALES -->
 <section id="redes-sociales" class="py-12 px-6 bg-gray-50">
   <div class="max-w-6xl mx-auto">
     <h2 class="text-3xl md:text-4xl font-bold text-center text-blue-800 mb-8" data-aos="fade-up">
@@ -394,7 +367,7 @@ import Navbar from '../components/Navbar.astro';
     </p>
 
     <div class="flex flex-wrap justify-center gap-6 md:gap-10">
-      <!-- Facebook -->
+      <!-- FACEBOOK -->
       <a href="https://www.facebook.com/tupagina" 
          target="_blank" 
          rel="noopener noreferrer"
@@ -406,7 +379,7 @@ import Navbar from '../components/Navbar.astro';
         </svg>
       </a>
 
-      <!-- Instagram -->
+      <!-- INSTAGRAM -->
       <a href="https://www.instagram.com/tucuenta" 
          target="_blank" 
          rel="noopener noreferrer"
@@ -418,7 +391,7 @@ import Navbar from '../components/Navbar.astro';
         </svg>
       </a>
 
-      <!-- TikTok -->
+      <!-- TIKTOK -->
       <a href="https://www.tiktok.com/@tucuenta" 
          target="_blank" 
          rel="noopener noreferrer"
@@ -430,7 +403,7 @@ import Navbar from '../components/Navbar.astro';
         </svg>
       </a>
 
-      <!-- WhatsApp -->
+      <!-- WHATSAPP -->
       <a href="https://wa.me/522228479246" 
          target="_blank" 
          rel="noopener noreferrer"
@@ -442,7 +415,7 @@ import Navbar from '../components/Navbar.astro';
         </svg>
       </a>
 
-      <!-- YouTube -->
+      <!-- YOUTUBE -->
       <a href="https://www.youtube.com/tucanal" 
          target="_blank" 
          rel="noopener noreferrer"
@@ -471,8 +444,7 @@ import Navbar from '../components/Navbar.astro';
       duration: 1000,
       once: true,
     });
-
-    // Carrusel (ya lo tenías)
+    // CARRUSEL
     const carousel = document.getElementById('simple-carousel');
     if (!carousel) return;
 
